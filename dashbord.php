@@ -47,6 +47,9 @@
                       <td><?php echo $user['name'] ?></td>
                       <td><?php echo $user['surname'] ?></td>
                       <td><?php echo $user['email'] ?></td>
+                      <td><a href="delete.php?id=<?php echo $users['id'] ?>">Delete</a></td>;
+            
+                      
 
 
                       </tr>
